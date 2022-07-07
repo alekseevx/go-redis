@@ -377,9 +377,9 @@ func (c *ringShards) Close() error {
 			firstErr = err
 		}
 	}
-	c.hash = nil
-	c.shards = nil
-	c.list = nil
+	// c.hash = nil
+	// c.shards = nil
+	// c.list = nil
 
 	return firstErr
 }
